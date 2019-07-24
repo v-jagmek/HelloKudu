@@ -1,0 +1,10 @@
+@{
+    if (IntPtr.Size == 8)
+    {
+         Response.Write("64 bit");
+    }
+    else if (IntPtr.Size == 4)
+    {
+         Response.Write("32 bit");
+    }
+}
